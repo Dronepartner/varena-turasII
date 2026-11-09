@@ -41,9 +41,9 @@
     },
     {
      "i": "r_peronas",
-     "yaw": 107,
-     "pitch": -4,
-     "poslinkis": -122,
+     "yaw": 0.0,
+     "pitch": -20.0,
+     "poslinkis": -8.0,
      "uzrasas": {
       "lt": "Peronas ~1910 m.",
       "en": "The platform c. 1910"
@@ -52,8 +52,8 @@
    ],
    "istorijos": [
     {
-     "yaw": 107,
-     "pitch": -18,
+     "yaw": 10.0,
+     "pitch": 3.0,
      "antraste": {
       "lt": "Peronas",
       "en": "The platform"
@@ -89,8 +89,8 @@
    "perejimai": [
     {
      "i": "r_peronas",
-     "yaw": -64.0,
-     "pitch": 4.0,
+     "yaw": -45.0,
+     "pitch": 6.0,
      "uzrasas": {
       "lt": "Peronas ~1910 m.",
       "en": "Platform c. 1910"
@@ -98,8 +98,8 @@
     },
     {
      "i": "bokstas_arti",
-     "yaw": 52.0,
-     "pitch": 6.0,
+     "yaw": 36.0,
+     "pitch": 8.0,
      "uzrasas": {
       "lt": "Vandens bokštas",
       "en": "Water tower"
@@ -257,17 +257,18 @@
    "perejimai": [
     {
      "i": "st_kiemas",
-     "yaw": -25.0,
-     "pitch": -38.0,
+     "yaw": -8.0,
+     "pitch": -20.0,
      "uzrasas": {
       "lt": "Peronas šiandien",
       "en": "The platform today"
-     }
+     },
+     "poslinkis": 8.0
     },
     {
      "i": "st_toli",
-     "yaw": -78.0,
-     "pitch": 4.0,
+     "yaw": -8.0,
+     "pitch": -8.0,
      "uzrasas": {
       "lt": "Stotis šiandien",
       "en": "The station today"
@@ -285,8 +286,8 @@
    ],
    "istorijos": [
     {
-     "yaw": -8.7,
-     "pitch": 10.2,
+     "yaw": 22.0,
+     "pitch": 3.0,
      "antraste": {
       "lt": "Atšaka į stovyklą",
       "en": "The branch line to the camp"
@@ -644,8 +645,8 @@
     },
     {
      "i": "r_klubas",
-     "yaw": 19.3,
-     "pitch": -15.8,
+     "yaw": 25.0,
+     "pitch": -14.0,
      "uzrasas": {
       "lt": "Prie cerkvės ir klubo",
       "en": "To the church and club"
@@ -653,8 +654,8 @@
     },
     {
      "i": "r_parkas",
-     "yaw": 11.7,
-     "pitch": -9.0,
+     "yaw": 9.0,
+     "pitch": -7.5,
      "uzrasas": {
       "lt": "Klubas iš pietų",
       "en": "The club from the south"
@@ -662,8 +663,8 @@
     },
     {
      "i": "r_rikiuote",
-     "yaw": -5.1,
-     "pitch": -8.1,
+     "yaw": -8.0,
+     "pitch": -6.0,
      "uzrasas": {
       "lt": "Į rikiuotės aikštę",
       "en": "To the parade ground"

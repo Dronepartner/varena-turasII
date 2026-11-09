@@ -297,3 +297,10 @@ html, body { margin: 0; height: 100%; overflow: hidden; color: var(--tekstas);
 
 /* v4: kol gilzė rankoje, padėtos objektų ikonos negaudo įvykių – trinama ir po jomis (spustelėjimas atpažįstamas app.js) */
 .trina .fig-zymeklis, .trina .fig-zymeklis * { pointer-events: none !important; }
+
+/* v4h: telefone rodyklių burbuliukai mažesni, kad neužliptų vienas ant kito */
+@media (max-width: 600px) {
+  .hs-perejimas .hs-rodykle { width: 38px; height: 38px; margin: -19px 0 0 -19px; background-size: 20px; }
+  .hs-uzrasas { top: 22px; font-size: 11px; padding: 2px 6px; }
+  .hs-istorija .hs-i { width: 28px; height: 28px; margin: -14px 0 0 -14px; font-size: 15px; }
+}

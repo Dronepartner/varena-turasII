@@ -779,6 +779,10 @@ function rodytiMini3d(T) {
 
 function pereiti(p) {                        // trumpas „priėjimas“ link rodyklės, tada nauja scena
   Garsas.spragt();
+  const y0 = viewer.getYaw(), p0 = viewer.getPitch(), h0 = viewer.getHfov();
+  if (p.poslinkis !== undefined && Math.abs(((p.yaw - y0 + 540) % 360) - 180) < h0/2) {   // v4h: nuoroda matoma - nesukama, ta pati kryptis ir aukštis
+    viewer.loadScene(p.i, p0, y0 + p.poslinkis, h0); return;
+  }
   viewer.lookAt(p.pitch, p.yaw, Math.max(45, viewer.getHfov() - 35), 450, () => {
     if (p.poslinkis !== undefined) viewer.loadScene(p.i, 0, viewer.getYaw() + p.poslinkis, viewer.getHfov() + 35);   // ta pati žiūrėjimo kryptis
     else viewer.loadScene(p.i);
