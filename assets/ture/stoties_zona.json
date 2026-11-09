@@ -8,107 +8,36 @@
   "lt": "1894 m. nutiesus geležinkelio atšaką, prie Varėnės įrengta Artilerijos stotis su vandens bokštu, o ant skardžio išaugo karinis miestelis. Šiandieninės 360° nuotraukos rodo išlikusią stotį ir bokštą; rekonstrukcijos (~1905–1914 m.) – 3D modelio vaizdai.",
   "en": "After the railway branch was built in 1894, the Artillery station with a water tower was set up by the Varėnė, and a military town grew on the bluff. Today’s 360° photos show the surviving station and tower; the reconstructions (c. 1905–1914) are views of the 3D model."
  },
- "pradzia": "st_priekis",
+ "pradzia": "st_toli",
  "scenos": [
-  {
-   "id": "st_priekis",
-   "failas": "Kareivines, stotis, bokstas/Varena_P04_R0011644-R0011652_8192x4096.jpg",
-   "rusis": "dabar",
-   "pavadinimas": {
-    "lt": "Stotis šiandien",
-    "en": "The station today"
-   },
-   "yaw": 0,
-   "pitch": 4,
-   "perejimai": [
-    {
-     "i": "r_peronas",
-     "yaw": -22.4,
-     "pitch": 14.0,
-     "uzrasas": {
-      "lt": "Peronas ~1910 m.",
-      "en": "Platform c. 1910"
-     }
-    },
-    {
-     "i": "st_kiemas",
-     "yaw": 58,
-     "pitch": -2,
-     "uzrasas": {
-      "lt": "Perono pusė",
-      "en": "Platform side"
-     }
-    },
-    {
-     "i": "r_sankryza",
-     "yaw": 180,
-     "pitch": -6,
-     "uzrasas": {
-      "lt": "Į gyvenvietę (~1910 m.)",
-      "en": "To the settlement (c. 1910)"
-     }
-    },
-    {
-     "i": "r_virsus",
-     "yaw": 110.0,
-     "pitch": 22.0,
-     "uzrasas": {
-      "lt": "Iš paukščio skrydžio (~1910 m.)",
-      "en": "Bird’s-eye view (c. 1910)"
-     }
-    }
-   ],
-   "istorijos": [
-    {
-     "yaw": 0,
-     "pitch": 14,
-     "antraste": {
-      "lt": "Buvusi Artilerijos stotis",
-      "en": "The former Artillery station"
-     },
-     "tekstas": {
-      "lt": "Mūrinė stotis (apie 28 × 10 m) su arkiniais langais ir išsikišusiu įėjimo prieangiu pastatyta 1894 m., kai nutiesta geležinkelio atšaka. Prie jos buvo peronas, prie kurio iškraudavo ir pakraudavo įvairius krovinius. Tai vienas iš dviejų stovyklos pastatų, išlikusių iki šiol.",
-      "en": "The brick station (about 28 × 10 m) with arched windows and a projecting entrance porch was built in 1894, when the railway branch was laid. Beside it was a platform where all kinds of freight were unloaded and loaded. It is one of the two camp buildings that survive today."
-     },
-     "vaizdas": "assets/pano_web/stoties_zona/img/stotis_dabar.jpg",
-     "vaizdo_paaiskinimas": {
-      "lt": "Stotis šiandien. Nuotr. S. Zaura.",
-      "en": "The station today. Photo: S. Zaura."
-     }
-    }
-   ],
-   "mr": {
-    "path": "/%l/%s%y_%x",
-    "fallbackPath": "/fallback/%s",
-    "extension": "jpg",
-    "tileResolution": 512,
-    "maxLevel": 4,
-    "cubeResolution": 2560,
-    "basePath": "assets/pano_mr/stoties_zona/st_priekis"
-   },
-   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/Varena_P04_R0011644-R0011652_8192x4096.jpg",
-   "objektas": "stotis"
-  },
   {
    "id": "st_kiemas",
    "failas": "Kareivines, stotis, bokstas/Varena_P02_R0011626-R0011634_8192x4096.jpg",
    "rusis": "dabar",
    "pavadinimas": {
-    "lt": "Perono pusė",
-    "en": "Platform side"
+    "lt": "Peronas šiandien",
+    "en": "The platform today"
    },
    "yaw": 0,
    "pitch": 2,
    "perejimai": [
     {
-     "i": "st_priekis",
+     "i": "st_toli",
      "yaw": 0,
-     "pitch": -8
+     "pitch": -8,
+     "uzrasas": {
+      "lt": "Stotis šiandien",
+      "en": "The station today"
+     }
     },
     {
-     "i": "st_toli",
+     "i": "bokstas_arti",
      "yaw": 180,
-     "pitch": -6
+     "pitch": -6,
+     "uzrasas": {
+      "lt": "Vandens bokštas",
+      "en": "Water tower"
+     }
     },
     {
      "i": "r_peronas",
@@ -152,19 +81,68 @@
    "failas": "Kareivines, stotis, bokstas/Varena_P03_R0011635-R0011643_8192x4096.jpg",
    "rusis": "dabar",
    "pavadinimas": {
-    "lt": "Prie stoties",
-    "en": "Near the station"
+    "lt": "Stotis šiandien",
+    "en": "The station today"
    },
    "yaw": 0,
    "pitch": 2,
    "perejimai": [
     {
-     "i": "st_kiemas",
-     "yaw": 0,
-     "pitch": -5
+     "i": "r_peronas",
+     "yaw": -64.0,
+     "pitch": 4.0,
+     "uzrasas": {
+      "lt": "Peronas ~1910 m.",
+      "en": "Platform c. 1910"
+     }
+    },
+    {
+     "i": "bokstas_arti",
+     "yaw": 52.0,
+     "pitch": 6.0,
+     "uzrasas": {
+      "lt": "Vandens bokštas",
+      "en": "Water tower"
+     }
+    },
+    {
+     "i": "r_sankryza",
+     "yaw": 180.0,
+     "pitch": -6.0,
+     "uzrasas": {
+      "lt": "Į gyvenvietę (~1910 m.)",
+      "en": "To the settlement (c. 1910)"
+     }
+    },
+    {
+     "i": "r_virsus",
+     "yaw": -150.0,
+     "pitch": 26.0,
+     "uzrasas": {
+      "lt": "Iš paukščio skrydžio (~1910 m.)",
+      "en": "Bird’s-eye view (c. 1910)"
+     }
     }
    ],
-   "istorijos": [],
+   "istorijos": [
+    {
+     "yaw": -7.0,
+     "pitch": 12.0,
+     "antraste": {
+      "lt": "Buvusi Artilerijos stotis",
+      "en": "The former Artillery station"
+     },
+     "tekstas": {
+      "lt": "Mūrinė stotis (apie 28 × 10 m) su arkiniais langais ir išsikišusiu įėjimo prieangiu pastatyta 1894 m., kai nutiesta geležinkelio atšaka. Prie jos buvo peronas, prie kurio iškraudavo ir pakraudavo įvairius krovinius. Tai vienas iš dviejų stovyklos pastatų, išlikusių iki šiol.",
+      "en": "The brick station (about 28 × 10 m) with arched windows and a projecting entrance porch was built in 1894, when the railway branch was laid. Beside it was a platform where all kinds of freight were unloaded and loaded. It is one of the two camp buildings that survive today."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/stotis_dabar.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "Stotis šiandien. Nuotr. S. Zaura.",
+      "en": "The station today. Photo: S. Zaura."
+     }
+    }
+   ],
    "mr": {
     "path": "/%l/%s%y_%x",
     "fallbackPath": "/fallback/%s",
@@ -195,7 +173,7 @@
      "pitch": -6
     },
     {
-     "i": "st_priekis",
+     "i": "st_toli",
      "yaw": 28,
      "pitch": -6,
      "uzrasas": {
@@ -282,17 +260,17 @@
      "yaw": -25.0,
      "pitch": -38.0,
      "uzrasas": {
-      "lt": "Šiandien",
-      "en": "Today"
+      "lt": "Peronas šiandien",
+      "en": "The platform today"
      }
     },
     {
-     "i": "st_priekis",
+     "i": "st_toli",
      "yaw": -78.0,
      "pitch": 4.0,
      "uzrasas": {
-      "lt": "Į stoties priekį",
-      "en": "To the station front"
+      "lt": "Stotis šiandien",
+      "en": "The station today"
      }
     },
     {
@@ -344,14 +322,13 @@
    "siaure": 35.8,
    "perejimai": [
     {
-     "i": "r_peronas",
+     "i": "st_toli",
      "yaw": 7.2,
      "pitch": 5.5,
      "uzrasas": {
       "lt": "Į stotį",
       "en": "To the station"
-     },
-     "poslinkis": 173.7
+     }
     },
     {
      "i": "r_klubas",
@@ -648,7 +625,7 @@
    "siaure": 215.2,
    "perejimai": [
     {
-     "i": "r_peronas",
+     "i": "st_toli",
      "yaw": -166.5,
      "pitch": -11.0,
      "uzrasas": {
@@ -731,14 +708,6 @@
  "mini3d": {
   "glb": "assets/mini3d/stoties_zona.glb",
   "taskai": {
-   "st_priekis": {
-    "p": [
-     205,
-     320,
-     null
-    ],
-    "h": 0
-   },
    "st_toli": {
     "p": [
      190,
