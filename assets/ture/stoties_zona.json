@@ -5,8 +5,8 @@
   "en": "Artillery station and military town"
  },
  "ivadas": {
-  "lt": "1894 m. nutiesus geležinkelio atšaką, prie Varėnės įrengta Artilerijos stotis su vandens bokštu, o ant skardžio išaugo karinis miestelis. Šiandieninės 360° nuotraukos rodo išlikusią stotį ir bokštą; rekonstrukcijos (~1905–1914 m.) – 3D modelio vaizdai. Žmonės ir traukinys – iliustracija.",
-  "en": "After the railway branch was built in 1894, the Artillery station with a water tower was set up by the Varėnė, and a military town grew on the bluff. Today’s 360° photos show the surviving station and tower; the reconstructions (c. 1905–1914) are views of the 3D model. People and the train are illustrative."
+  "lt": "1894 m. nutiesus geležinkelio atšaką, prie Varėnės įrengta Artilerijos stotis su vandens bokštu, o ant skardžio išaugo karinis miestelis. Šiandieninės 360° nuotraukos rodo išlikusią stotį ir bokštą; rekonstrukcijos (~1905–1914 m.) – 3D modelio vaizdai.",
+  "en": "After the railway branch was built in 1894, the Artillery station with a water tower was set up by the Varėnė, and a military town grew on the bluff. Today’s 360° photos show the surviving station and tower; the reconstructions (c. 1905–1914) are views of the 3D model."
  },
  "pradzia": "st_priekis",
  "scenos": [
@@ -23,11 +23,11 @@
    "perejimai": [
     {
      "i": "r_peronas",
-     "yaw": -40,
-     "pitch": 18,
+     "yaw": -22.4,
+     "pitch": 14.0,
      "uzrasas": {
-      "lt": "Kaip atrodė ~1910 m.",
-      "en": "As it looked c. 1910"
+      "lt": "Peronas ~1910 m.",
+      "en": "Platform c. 1910"
      }
     },
     {
@@ -67,8 +67,8 @@
       "en": "The former Artillery station"
      },
      "tekstas": {
-      "lt": "Mūrinė stotis (apie 28 × 10 m) su arkiniais langais ir išsikišusiu įėjimo prieangiu pastatyta 1894 m., kai nutiesta geležinkelio atšaka. Prie jos buvo peronas pabūklams ir arkliams iškrauti. Tai vienas iš dviejų stovyklos pastatų, išlikusių iki šiol.",
-      "en": "The brick station (about 28 × 10 m) with arched windows and a projecting entrance porch was built in 1894, when the railway branch was laid. Beside it was a platform for unloading guns and horses. It is one of the two camp buildings that survive today."
+      "lt": "Mūrinė stotis (apie 28 × 10 m) su arkiniais langais ir išsikišusiu įėjimo prieangiu pastatyta 1894 m., kai nutiesta geležinkelio atšaka. Prie jos buvo peronas, prie kurio iškraudavo ir pakraudavo įvairius krovinius. Tai vienas iš dviejų stovyklos pastatų, išlikusių iki šiol.",
+      "en": "The brick station (about 28 × 10 m) with arched windows and a projecting entrance porch was built in 1894, when the railway branch was laid. Beside it was a platform where all kinds of freight were unloaded and loaded. It is one of the two camp buildings that survive today."
      },
      "vaizdas": "assets/pano_web/stoties_zona/img/stotis_dabar.jpg",
      "vaizdo_paaiskinimas": {
@@ -130,8 +130,8 @@
       "en": "The platform"
      },
      "tekstas": {
-      "lt": "Šioje stoties pusėje ėjo bėgiai ir peronas, ant kurio iškraudavo pabūklus ir arklius. 1926 m. sausio 16 d. eismas ruože Artilerijos stotis–Alytus nutrauktas, vėliau atšaka išardyta.",
-      "en": "On this side of the station ran the track and the platform where guns and horses were unloaded. On 16 January 1926 traffic on the Artillery station–Alytus section was stopped, and the branch was later dismantled."
+      "lt": "Šioje stoties pusėje ėjo bėgiai ir peronas, prie kurio iškraudavo ir pakraudavo įvairius krovinius. 1926 m. sausio 16 d. eismas ruože Artilerijos stotis–Alytus nutrauktas, vėliau atšaka išardyta.",
+      "en": "On this side of the station ran the track and the platform where all kinds of freight were unloaded and loaded. On 16 January 1926 traffic on the Artillery station–Alytus section was stopped, and the branch was later dismantled."
      }
     }
    ],
@@ -314,8 +314,8 @@
       "en": "The branch line to the camp"
      },
      "tekstas": {
-      "lt": "1894 m. nutiesta geležinkelio atšaka. Artilerijos stotyje buvo iškraunami pabūklai ir arkliai, o vandens bokštas aprūpindavo garvežius vandeniu.",
-      "en": "The railway branch was laid in 1894. Guns and horses were unloaded at the Artillery station, and the water tower supplied the locomotives with water."
+      "lt": "1894 m. nutiesta geležinkelio atšaka. Artilerijos stotyje iškraudavo ir pakraudavo įvairius krovinius, o vandens bokštas aprūpindavo garvežius vandeniu.",
+      "en": "The railway branch was laid in 1894. All kinds of freight were unloaded and loaded at the Artillery station, and the water tower supplied the locomotives with water."
      }
     }
    ],
