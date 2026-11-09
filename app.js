@@ -18,6 +18,7 @@ const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const lksLL = (X, Y) => map.unproject([(X - X0) / PXM, (Y1 - Y) / PXM], ZN);
 const objLL = id => map.unproject(CFG.objektai[id].centras_px, ZN);
 const mobilus = () => innerWidth <= 700;
+const mazasEkranas = () => innerWidth <= 700 || innerHeight <= 500;   // v4i: telefone (ir gulsčiai) kai kurios rodyklės žemiau, kad užrašai neuždengtų pastatų
 
 fetch('assets/objektai.json', { cache: 'no-cache' }).then(r => r.json()).then(init).catch(e => console.error('objektai.json', e));
 
@@ -730,7 +731,7 @@ function rodytiTura(pradzia, yaw, pitch) {
     const hs = [];
     for (const p of s.perejimai || []) {
       const tiksl = scenaPagalId(p.i); if (!tiksl) continue;
-      hs.push({ yaw: p.yaw, pitch: p.pitch, cssClass: 'hs-perejimas', createTooltipFunc: hsEtikete, createTooltipArgs: ltEn(p.uzrasas || tiksl.pavadinimas),
+      hs.push({ yaw: p.yaw, pitch: (mazasEkranas() && p.pitch_tel !== undefined) ? p.pitch_tel : p.pitch, cssClass: 'hs-perejimas', createTooltipFunc: hsEtikete, createTooltipArgs: ltEn(p.uzrasas || tiksl.pavadinimas),
         clickHandlerFunc: () => pereiti(p) });
     }
     for (const h of s.istorijos || []) {

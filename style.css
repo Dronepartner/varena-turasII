@@ -304,3 +304,14 @@ html, body { margin: 0; height: 100%; overflow: hidden; color: var(--tekstas);
   .hs-uzrasas { top: 22px; font-size: 11px; padding: 2px 6px; }
   .hs-istorija .hs-i { width: 28px; height: 28px; margin: -14px 0 0 -14px; font-size: 15px; }
 }
+
+/* v4i: hotspoto taškas = burbuliuko centras = užrašo centras (Pannellum centruoja div pagal jo plotį) */
+.pnlm-hotspot-base.hs-perejimas, .pnlm-hotspot-base.hs-istorija { width: 0 !important; height: 0 !important; overflow: visible; }
+.hs-perejimas .hs-rodykle, .hs-istorija .hs-i { box-sizing: border-box; }
+.hs-uzrasas { left: 0; transform: translateX(-50%); }
+.hs-perejimas .hs-uzrasas { top: 32px; }
+.hs-istorija .hs-uzrasas { top: 22px; }
+@media (max-width: 600px), (max-height: 500px) {
+  .hs-perejimas .hs-uzrasas { top: 23px; }
+  .hs-istorija .hs-uzrasas { top: 17px; }
+}

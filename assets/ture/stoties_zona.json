@@ -41,8 +41,8 @@
     },
     {
      "i": "r_peronas",
-     "yaw": 0.0,
-     "pitch": -20.0,
+     "yaw": 107.0,
+     "pitch": -4.0,
      "poslinkis": -8.0,
      "uzrasas": {
       "lt": "Peronas ~1910 m.",
@@ -52,8 +52,8 @@
    ],
    "istorijos": [
     {
-     "yaw": 10.0,
-     "pitch": 3.0,
+     "yaw": 16.0,
+     "pitch": 4.0,
      "antraste": {
       "lt": "Peronas",
       "en": "The platform"
@@ -257,8 +257,8 @@
    "perejimai": [
     {
      "i": "st_kiemas",
-     "yaw": -8.0,
-     "pitch": -20.0,
+     "yaw": 99.0,
+     "pitch": -12.0,
      "uzrasas": {
       "lt": "Peronas šiandien",
       "en": "The platform today"
@@ -650,7 +650,8 @@
      "uzrasas": {
       "lt": "Prie cerkvės ir klubo",
       "en": "To the church and club"
-     }
+     },
+     "pitch_tel": -23.0
     },
     {
      "i": "r_parkas",
@@ -659,7 +660,8 @@
      "uzrasas": {
       "lt": "Klubas iš pietų",
       "en": "The club from the south"
-     }
+     },
+     "pitch_tel": -19.5
     },
     {
      "i": "r_rikiuote",
@@ -668,7 +670,8 @@
      "uzrasas": {
       "lt": "Į rikiuotės aikštę",
       "en": "To the parade ground"
-     }
+     },
+     "pitch_tel": -15.0
     }
    ],
    "istorijos": [
