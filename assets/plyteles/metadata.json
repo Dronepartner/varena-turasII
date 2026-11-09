@@ -1,0 +1,47 @@
+{
+ "crs": "EPSG:3346 (LKS94 / Lithuania TM)",
+ "sritis_LKS94": {
+  "X0": 531910,
+  "Y0": 6012890,
+  "X1": 537890,
+  "Y1": 6017200
+ },
+ "pikselis_m_max_zoom": 0.5,
+ "plyteles_px": 256,
+ "formatas": "WebP (q82); kraštinės plytelės su alpha",
+ "schema": "{z}/{x}/{y}.webp; x iš kairės, y iš viršaus (raster, Leaflet CRS.Simple)",
+ "leaflet": "L.tileLayer('plyteles/orto/{z}/{x}/{y}.webp',{minZoom:0,maxNativeZoom:ZMAX,noWrap:true}); taškas LKS94 (X,Y) -> px = ((X-X0)/0.5, (Y1-Y)/0.5); latlng = map.unproject([px,py], ZMAX); ribos = [map.unproject([0,H],ZMAX), map.unproject([W,0],ZMAX)]",
+ "sluoksniai": {
+  "orto": {
+   "zoom_min": 0,
+   "zoom_max": 6,
+   "plyteliu_sk": 2158,
+   "dydis_MB": 24.9,
+   "vaizdas_px": [
+    11960,
+    8620
+   ],
+   "pikselis_m": 0.5
+  },
+  "lidar": {
+   "zoom_min": 0,
+   "zoom_max": 6,
+   "plyteliu_sk": 2158,
+   "dydis_MB": 29.8,
+   "vaizdas_px": [
+    11960,
+    8620
+   ],
+   "pikselis_m": 0.5
+  }
+ },
+ "zoom_lygiai": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ]
+}
