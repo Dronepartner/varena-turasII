@@ -1,0 +1,322 @@
+{
+ "_paaiskinimas": "Senosios Varėnos geležinkelio tilto per Merkį turas. Rodyklių kryptys tarp vaizdų – apytikslės.",
+ "pavadinimas": {
+  "lt": "Senosios Varėnos tiltas per Merkį",
+  "en": "Senoji Varėna bridge over the Merkys"
+ },
+ "ivadas": {
+  "lt": "Prie Senosios Varėnos buvusio geležinkelio pylimas kerta Merkį – čia stovėjo didžiausias šio ruožo tiltas. Panoramos – 3D rekonstrukcijos (1899 m. būklė) vaizdai.",
+  "en": "Near Senoji Varėna the former railway embankment crosses the Merkys – the largest bridge of this line stood here. The panoramas are renders of the 3D reconstruction (state in 1899)."
+ },
+ "pradzia": "is_aukstai",
+ "scenos": [
+  {
+   "id": "is_aukstai",
+   "failas": "Tiltas per Merkį/Verdigris Railway Bridge Over River Valley.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Slėnis iš aukštai",
+    "en": "The valley from above"
+   },
+   "yaw": 0,
+   "pitch": -10,
+   "perejimai": [
+    {
+     "i": "ant_tilto",
+     "yaw": 0,
+     "pitch": -14,
+     "uzrasas": {
+      "lt": "Ant tilto",
+      "en": "On the bridge"
+     }
+    },
+    {
+     "i": "po_tiltu",
+     "yaw": 46,
+     "pitch": -27,
+     "uzrasas": {
+      "lt": "Prie atramos",
+      "en": "By the pier"
+     }
+    },
+    {
+     "i": "is_oro",
+     "yaw": 25,
+     "pitch": 38,
+     "uzrasas": {
+      "lt": "Iš oro šiandien",
+      "en": "From the air today"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -37,
+     "pitch": -24,
+     "antraste": {
+      "lt": "Senosios Varėnos tiltas per Merkį",
+      "en": "Senoji Varėna bridge over the Merkys"
+     },
+     "tekstas": {
+      "lt": "Apie 55 m ilgio tiltas su 42,67 m (20 sieksnių) „žuvies pilvo“ santvara, dviem trumpais privažiavimo tarpatramiais ir dvigubomis mūrinėmis atramomis.",
+      "en": "A bridge about 55 m long with a 42.67 m (20 sazhen) “fish-belly” truss, two short approach spans and double masonry piers."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1536,
+    "basePath": "assets/pano_mr/tiltas_merkys/is_aukstai_k"
+   },
+   "mr_saltinis": "../Panos Upscaled/_kvadratai/tiltas_merkys_is_aukstai_kvadratai.png",
+   "pagrindas": {
+    "lt": "Rekonstrukcija pagal išlikusių dalių 3D modelius, brėžinius ir matavimus",
+    "en": "Reconstruction based on 3D models of the surviving parts, drawings and measurements"
+   }
+  },
+  {
+   "id": "ant_tilto",
+   "failas": "Tiltas per Merkį/Railway Bridge Across a Sunny River.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Ant tilto",
+    "en": "On the bridge"
+   },
+   "yaw": 0,
+   "pitch": -6,
+   "perejimai": [
+    {
+     "i": "is_aukstai",
+     "yaw": 150,
+     "pitch": 20,
+     "uzrasas": {
+      "lt": "Iš aukštai",
+      "en": "From above"
+     }
+    },
+    {
+     "i": "po_tiltu",
+     "yaw": 90,
+     "pitch": -30,
+     "uzrasas": {
+      "lt": "Po tiltu",
+      "en": "Under the bridge"
+     }
+    },
+    {
+     "i": "is_oro",
+     "yaw": 25,
+     "pitch": 38,
+     "uzrasas": {
+      "lt": "Iš oro šiandien",
+      "en": "From the air today"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": 0,
+     "pitch": -22,
+     "antraste": {
+      "lt": "Geležinkelis prie sienos",
+      "en": "A railway by the border"
+     },
+     "tekstas": {
+      "lt": "Varėnos–Alytaus–Suvalkų–Gardino geležinkelis, atidarytas 1899 m., buvo skirtas sustiprinti vakarinę Rusijos imperijos sieną. 1926 m. sausio 16 d. eismas ruože Artilerijos stotis–Alytus nutrauktas.",
+      "en": "The Varėna–Alytus–Suwałki–Grodno railway, opened in 1899, was meant to strengthen the western border of the Russian Empire. On 16 January 1926 traffic on the Artillery station–Alytus section was stopped."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1536,
+    "basePath": "assets/pano_mr/tiltas_merkys/ant_tilto_k"
+   },
+   "mr_saltinis": "../Panos Upscaled/_kvadratai/tiltas_merkys_ant_tilto_kvadratai.png",
+   "pagrindas": {
+    "lt": "Rekonstrukcija pagal išlikusių dalių 3D modelius, brėžinius ir matavimus",
+    "en": "Reconstruction based on 3D models of the surviving parts, drawings and measurements"
+   }
+  },
+  {
+   "id": "po_tiltu",
+   "failas": "Tiltas per Merkį/Green Truss Bridge Over a Sunlit River.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Prie atramos",
+    "en": "By the pier"
+   },
+   "yaw": -30,
+   "pitch": 4,
+   "perejimai": [
+    {
+     "i": "ant_tilto",
+     "yaw": -20,
+     "pitch": 28,
+     "uzrasas": {
+      "lt": "Ant tilto",
+      "en": "On the bridge"
+     }
+    },
+    {
+     "i": "is_aukstai",
+     "yaw": 120,
+     "pitch": 5,
+     "uzrasas": {
+      "lt": "Iš aukštai",
+      "en": "From above"
+     }
+    },
+    {
+     "i": "is_oro",
+     "yaw": -5,
+     "pitch": 38,
+     "uzrasas": {
+      "lt": "Iš oro šiandien",
+      "en": "From the air today"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -56,
+     "pitch": 5,
+     "antraste": {
+      "lt": "Du sprogimai",
+      "en": "Blown up twice"
+     },
+     "tekstas": {
+      "lt": "1915 m. tiltas susprogdintas ir atstatytas ant medinių atramų; 1920 m. spalio 7 d. susprogdintas dar kartą ir nebeatstatytas. Santvaros 1936 m. panaudotos siaurojo geležinkelio tiltui Anykščiuose. Išliko mūrinės atramos (Kultūros vertybių registras, kodas 41995).",
+      "en": "In 1915 the bridge was blown up and rebuilt on timber supports; on 7 October 1920 it was blown up again and never rebuilt. In 1936 its trusses were reused for a narrow-gauge railway bridge in Anykščiai. The masonry piers survive (Register of Cultural Property, code 41995)."
+     },
+     "vaizdas": "assets/pano_web/tiltas_merkys/img/atramos_po_sprogdinimo.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "Atramos po susprogdinimo (istorinė nuotrauka, spalvinta).",
+      "en": "The piers after the explosion (historical photo, coloured)."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1536,
+    "basePath": "assets/pano_mr/tiltas_merkys/po_tiltu_k"
+   },
+   "mr_saltinis": "../Panos Upscaled/_kvadratai/tiltas_merkys_po_tiltu_kvadratai.png",
+   "pagrindas": {
+    "lt": "Rekonstrukcija pagal išlikusių dalių 3D modelius, brėžinius ir matavimus",
+    "en": "Reconstruction based on 3D models of the surviving parts, drawings and measurements"
+   }
+  },
+  {
+   "id": "is_oro",
+   "failas": "../../../Panoramos 360 foto is oro/Tiltas Merkys pano.jpg",
+   "rusis": "oras",
+   "pavadinimas": {
+    "lt": "Atramos šiandien",
+    "en": "The piers today"
+   },
+   "yaw": -40,
+   "pitch": -20,
+   "perejimai": [
+    {
+     "i": "is_aukstai",
+     "yaw": -40,
+     "pitch": 25,
+     "uzrasas": {
+      "lt": "Kaip atrodė 1899 m.",
+      "en": "As it looked in 1899"
+     }
+    },
+    {
+     "i": "po_tiltu",
+     "yaw": -15,
+     "pitch": -40,
+     "uzrasas": {
+      "lt": "Prie atramos (1899 m.)",
+      "en": "By the pier (1899)"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -40,
+     "pitch": -28,
+     "antraste": {
+      "lt": "Kas liko",
+      "en": "What remains"
+     },
+     "tekstas": {
+      "lt": "Iš tilto liko tik mūrinės atramos ties Senąja Varėna, kur buvusio geležinkelio pylimas kerta Merkį. 1920 m. spalio 7 d. tiltas susprogdintas galutinai ir nebeatstatytas; likučiai įrašyti į Kultūros vertybių registrą (kodas 41995).",
+      "en": "Only the masonry piers remain near Senoji Varėna, where the former railway embankment crosses the Merkys. On 7 October 1920 the bridge was blown up for the last time and never rebuilt; the remains are in the Register of Cultural Property (code 41995)."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 3776,
+    "basePath": "assets/pano_mr/tiltas_merkys/is_oro"
+   },
+   "mr_saltinis": "../Panoramos 360 foto is oro/Tiltas Merkys pano.jpg"
+  }
+ ],
+ "mini3d": {
+  "glb": "assets/mini3d/tiltas_merkys.glb",
+  "taskai": {
+   "ant_tilto": {
+    "p": [
+     3.2,
+     0,
+     8
+    ],
+    "h": 0
+   },
+   "po_tiltu": {
+    "p": [
+     -23,
+     -6,
+     2.8
+    ],
+    "h": 0
+   },
+   "is_aukstai": {
+    "p": [
+     0.46,
+     -29.45,
+     12
+    ],
+    "h": 90.9
+   },
+   "is_oro": {
+    "p": [
+     0,
+     0,
+     50
+    ]
+   }
+  },
+  "uzuomina": {
+   "lt": "Paspausk taško žymę – pereisi į tą panoramą. Paspausk modelį – padidinsi.",
+   "en": "Tap a point to go to that panorama. Tap the model to enlarge."
+  },
+  "atgal": {
+   "lt": "← Atgal į panoramą",
+   "en": "← Back to panorama"
+  }
+ }
+}

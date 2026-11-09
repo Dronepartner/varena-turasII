@@ -1,0 +1,563 @@
+{
+  "_paaiskinimas": "Redutų turas. 'dabar' – šiandieninės 360° nuotraukos miške (jų tarpusavio išdėstymas ir rodyklių kryptys – apytiksliai); 'rekonstrukcija' – 3D rekonstrukcijos renderiai, patobulinti pagalbinėmis DI priemonėmis.",
+  "pavadinimas": {
+    "lt": "Lauko įtvirtinimai – redutai",
+    "en": "Field fortifications – the redoubts"
+  },
+  "ivadas": {
+    "lt": "Buvusio poligono pušyne, Salovartės apylinkėse, išlikę du dideli žemės įtvirtinimai su giliais grioviais – vietos tradicijoje jie vadinami redutais. 2025 m. LiDAR duomenys leido juos išmatuoti po mišku ir atkurti 3D modelyje. Žmonės rekonstrukcijose – iliustracija.",
+    "en": "In the pine forest of the former range, near Salovartė, two large earthworks with deep ditches survive – local tradition calls them redoubts. The 2025 LiDAR data made it possible to measure them under the trees and rebuild them in a 3D model. People in the reconstructions are illustrative."
+  },
+  "pradzia": "r_pylimas",
+  "scenos": [
+    {
+      "id": "r_pylimas",
+      "failas": "Redutai/Golden Morning Artillery Meadow.png",
+      "rusis": "rekonstrukcija",
+      "pavadinimas": {
+        "lt": "Ant pylimo",
+        "en": "On the rampart"
+      },
+      "yaw": 0,
+      "pitch": -4,
+      "perejimai": [
+        {
+          "i": "r_pratybos",
+          "yaw": 90,
+          "pitch": -10
+        },
+        {
+          "i": "r_priesais",
+          "yaw": -60,
+          "pitch": -12
+        },
+        {
+          "i": "d_1",
+          "yaw": 0,
+          "pitch": -30,
+          "uzrasas": {
+            "lt": "Šiandien",
+            "en": "Today"
+          }
+        },
+        {
+          "i": "is_oro",
+          "yaw": 25,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 20,
+          "pitch": -22,
+          "antraste": {
+            "lt": "Pylimai, vadinami redutais",
+            "en": "Ramparts called redoubts"
+          },
+          "tekstas": {
+            "lt": "Abu įtvirtinimai milžiniški: griovys apie 30 m pločio ir 3,8 m gylio, o pylimas iškyla apie 4,9 m. Tai maždaug dvigubai daugiau nei įprastas to meto lauko įtvirtinimas.",
+            "en": "Both earthworks are huge: the ditch is about 30 m wide and 3.8 m deep, and the rampart rises about 4.9 m – roughly twice the size of an ordinary field work of the time."
+          },
+          "vaizdas": "assets/pano_web/redutai/img/lidar.jpg",
+          "vaizdo_paaiskinimas": {
+            "lt": "Esama būklė pagal NŽT LiDAR 2025: mėlyna – grioviai, balta – aukščiausios pylimų vietos.",
+            "en": "Present state from NŽT LiDAR 2025: blue – ditches, white – the highest parts of the ramparts."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 3,
+        "cubeResolution": 1536,
+        "basePath": "assets/pano_mr/redutai/r_pylimas_k"
+      },
+      "mr_saltinis": "../Panos Upscaled/_kvadratai/redutai_r_pylimas_kvadratai.png",
+      "pagrindas": {
+        "lt": "Rekonstrukcija pagal LiDAR aukščių matavimus ir to meto įtvirtinimų inžinerijos taisykles",
+        "en": "Reconstruction based on LiDAR elevation measurements and the fortification engineering rules of the time"
+      }
+    },
+    {
+      "id": "r_pratybos",
+      "failas": "Redutai/Golden Dawn Artillery Emplacement.png",
+      "rusis": "rekonstrukcija",
+      "pavadinimas": {
+        "lt": "Pratybos",
+        "en": "Training"
+      },
+      "yaw": 10,
+      "pitch": -6,
+      "perejimai": [
+        {
+          "i": "r_pylimas",
+          "yaw": -90,
+          "pitch": -8
+        },
+        {
+          "i": "r_priesais",
+          "yaw": 180,
+          "pitch": -10
+        },
+        {
+          "i": "is_oro",
+          "yaw": 35,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 24,
+          "pitch": -14,
+          "antraste": {
+            "lt": "Ne redutas, o ravelinas?",
+            "en": "Not a redoubt but a ravelin?"
+          },
+          "tekstas": {
+            "lt": "Redutas – uždaras įtvirtinimas, ginamas į visas puses. Varėnos įtvirtinimai uždaro kontūro neturi: abu sudaryti iš dviejų veidų, susieinančių smaigaliu į šiaurę, o užnugaris atviras. Pagal dydį, dengtąjį kelią ir glasį jie artimiausi ilgalaikės tvirtovės ravelinui. Archyvinio dokumento kol kas nerasta, todėl tai hipotezė, paremta forma ir palyginimu su klasikine fortifikacija.",
+            "en": "A redoubt is a closed work defended on all sides. The Varėna earthworks have no closed outline: each has two faces meeting in a point to the north, with an open rear. By their size, covered way and glacis they are closest to the ravelin of a permanent fortress. No archival document has been found yet, so this is a hypothesis based on form and comparison with classical fortification."
+          }
+        },
+        {
+          "yaw": -42,
+          "pitch": 6,
+          "antraste": {
+            "lt": "Poligonas",
+            "en": "The range"
+          },
+          "tekstas": {
+            "lt": "Oranų (dab. Varėnos) artilerijos poligonas suplanuotas 1877 m. Iki Pirmojo pasaulinio karo jame Rusijos imperijos kariuomenė mokėsi šaudyti ir įrengti įtvirtinimus, o 1925–1930 m. čia šaudymo pratybas rengė Lietuvos kariuomenė.",
+            "en": "The Orany (now Varėna) artillery range was planned in 1877. Until the First World War the army of the Russian Empire trained here in firing and building fortifications, and in 1925–1930 the Lithuanian army held firing exercises here."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 3,
+        "cubeResolution": 1536,
+        "basePath": "assets/pano_mr/redutai/r_pratybos_k"
+      },
+      "mr_saltinis": "../Panos Upscaled/_kvadratai/redutai_r_pratybos_kvadratai.png",
+      "pagrindas": {
+        "lt": "Rekonstrukcija pagal LiDAR aukščių matavimus ir to meto įtvirtinimų inžinerijos taisykles",
+        "en": "Reconstruction based on LiDAR elevation measurements and the fortification engineering rules of the time"
+      }
+    },
+    {
+      "id": "r_priesais",
+      "failas": "Redutai/Sunrise Over Historic Artillery Range.png",
+      "rusis": "rekonstrukcija",
+      "pavadinimas": {
+        "lt": "Priešais įtvirtinimą",
+        "en": "In front of the earthwork"
+      },
+      "yaw": 0,
+      "pitch": -6,
+      "perejimai": [
+        {
+          "i": "r_pylimas",
+          "yaw": 90,
+          "pitch": -6
+        },
+        {
+          "i": "r_pratybos",
+          "yaw": -90,
+          "pitch": -6
+        },
+        {
+          "i": "is_oro",
+          "yaw": 25,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 8,
+          "pitch": -22,
+          "antraste": {
+            "lt": "Puolėjų pėdsakai",
+            "en": "Traces of the attackers"
+          },
+          "tekstas": {
+            "lt": "Priešais vakarinį įtvirtinimą išliko puolėjų darbai: zigzaginė priėjimo tranšėja (sapa), lygiagreti tranšėja (paralelė) ir baterija ant glasio keteros – klasikinė tvirtovės apgulos seka. Todėl manoma, kad čia buvo mokomasis tvirtovės fronto fragmentas, kuriame kariai mokėsi tvirtovę ir ginti, ir pulti (hipotezė).",
+            "en": "In front of the western earthwork the attackers’ works survive: a zigzag approach trench (sap), a parallel trench and a battery on the crest of the glacis – the classic sequence of a fortress siege. It is therefore thought that this was a training fragment of a fortress front, where soldiers learned both to defend and to attack a fortress (hypothesis)."
+          },
+          "vaizdas": "assets/pano_web/redutai/img/planas.jpg",
+          "vaizdo_paaiskinimas": {
+            "lt": "Planas pagal LiDAR ir rekonstrukcijos modelį: sapa, paralelė, baterijos.",
+            "en": "Plan from LiDAR and the reconstruction model: sap, parallel, batteries."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 3,
+        "cubeResolution": 1536,
+        "basePath": "assets/pano_mr/redutai/r_priesais_k"
+      },
+      "mr_saltinis": "../Panos Upscaled/_kvadratai/redutai_r_priesais_kvadratai.png",
+      "pagrindas": {
+        "lt": "Rekonstrukcija pagal LiDAR aukščių matavimus ir to meto įtvirtinimų inžinerijos taisykles",
+        "en": "Reconstruction based on LiDAR elevation measurements and the fortification engineering rules of the time"
+      }
+    },
+    {
+      "id": "d_1",
+      "failas": "Redutai/Varena_P07_R0011671-R0011679_8192x4096.jpg",
+      "rusis": "dabar",
+      "pavadinimas": {
+        "lt": "Pušyne šiandien (1)",
+        "en": "In the pines today (1)"
+      },
+      "yaw": 0,
+      "pitch": -4,
+      "perejimai": [
+        {
+          "i": "d_2",
+          "yaw": 0,
+          "pitch": -22
+        },
+        {
+          "i": "r_pylimas",
+          "yaw": 0,
+          "pitch": 30,
+          "uzrasas": {
+            "lt": "Kaip galėjo atrodyti",
+            "en": "How it may have looked"
+          }
+        },
+        {
+          "i": "is_oro",
+          "yaw": 25,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 60,
+          "pitch": -12,
+          "antraste": {
+            "lt": "Po mišku",
+            "en": "Under the forest"
+          },
+          "tekstas": {
+            "lt": "Vėliau poligoną naudojo vokiečių ir Lietuvos kariuomenės, o po 1931 m. teritorija palaipsniui apaugo mišku. Pylimai ir grioviai liko po pušimis – tik 2025 m. LiDAR duomenys leido juos tiksliai išmatuoti.",
+            "en": "Later the range was used by the German and Lithuanian armies, and after 1931 the area gradually grew over with forest. The ramparts and ditches remained under the pines – only the 2025 LiDAR data allowed them to be measured precisely."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2560,
+        "basePath": "assets/pano_mr/redutai/d_1"
+      },
+      "mr_saltinis": "assets/pano/Redutai/Varena_P07_R0011671-R0011679_8192x4096.jpg"
+    },
+    {
+      "id": "d_2",
+      "failas": "Redutai/Varena_P08_R0011680-R0011688_8192x4096.jpg",
+      "rusis": "dabar",
+      "pavadinimas": {
+        "lt": "Pušyne šiandien (2)",
+        "en": "In the pines today (2)"
+      },
+      "yaw": 0,
+      "pitch": -4,
+      "perejimai": [
+        {
+          "i": "d_3",
+          "yaw": 0,
+          "pitch": -22
+        },
+        {
+          "i": "d_1",
+          "yaw": 180,
+          "pitch": -22
+        },
+        {
+          "i": "is_oro",
+          "yaw": 25,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": -40,
+          "pitch": -15,
+          "antraste": {
+            "lt": "Saugumas",
+            "en": "Safety"
+          },
+          "tekstas": {
+            "lt": "Buvusio poligono teritorijoje gali būti nesprogusių sprogmenų. Nieko nekaskite ir neimkite rastų metalo daiktų.",
+            "en": "Unexploded ordnance may remain on the former range. Do not dig and do not pick up any metal objects you find."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2560,
+        "basePath": "assets/pano_mr/redutai/d_2"
+      },
+      "mr_saltinis": "assets/pano/Redutai/Varena_P08_R0011680-R0011688_8192x4096.jpg"
+    },
+    {
+      "id": "d_3",
+      "failas": "Redutai/Varena_P09_R0011689-R0011697_8192x4096.jpg",
+      "rusis": "dabar",
+      "pavadinimas": {
+        "lt": "Pušyne šiandien (3)",
+        "en": "In the pines today (3)"
+      },
+      "yaw": 0,
+      "pitch": -4,
+      "perejimai": [
+        {
+          "i": "d_4",
+          "yaw": 0,
+          "pitch": -22
+        },
+        {
+          "i": "d_2",
+          "yaw": 180,
+          "pitch": -22
+        },
+        {
+          "i": "is_oro",
+          "yaw": 25,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2560,
+        "basePath": "assets/pano_mr/redutai/d_3"
+      },
+      "mr_saltinis": "assets/pano/Redutai/Varena_P09_R0011689-R0011697_8192x4096.jpg"
+    },
+    {
+      "id": "d_4",
+      "failas": "Redutai/Varena_P10_R0011698-R0011706_8192x4096.jpg",
+      "rusis": "dabar",
+      "pavadinimas": {
+        "lt": "Pušyne šiandien (4)",
+        "en": "In the pines today (4)"
+      },
+      "yaw": 0,
+      "pitch": -4,
+      "perejimai": [
+        {
+          "i": "d_3",
+          "yaw": 180,
+          "pitch": -22
+        },
+        {
+          "i": "is_oro",
+          "yaw": 25,
+          "pitch": 38,
+          "uzrasas": {
+            "lt": "Iš oro šiandien",
+            "en": "From the air today"
+          }
+        }
+      ],
+      "istorijos": [],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2560,
+        "basePath": "assets/pano_mr/redutai/d_4"
+      },
+      "mr_saltinis": "assets/pano/Redutai/Varena_P10_R0011698-R0011706_8192x4096.jpg"
+    },
+    {
+      "id": "is_oro",
+      "failas": "../../../Panoramos 360 foto is oro/Redutai pano.jpg",
+      "rusis": "oras",
+      "pavadinimas": {
+        "lt": "Virš pušyno",
+        "en": "Above the pine forest"
+      },
+      "yaw": 0,
+      "pitch": -25,
+      "perejimai": [
+        {
+          "i": "d_1",
+          "yaw": 0,
+          "pitch": -55,
+          "uzrasas": {
+            "lt": "Žemyn į pušyną",
+            "en": "Down into the pines"
+          }
+        },
+        {
+          "i": "r_pylimas",
+          "yaw": -40,
+          "pitch": -30,
+          "uzrasas": {
+            "lt": "Kaip galėjo atrodyti",
+            "en": "How it may have looked"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 25,
+          "pitch": -40,
+          "antraste": {
+            "lt": "Pylimai po mišku",
+            "en": "Ramparts under the forest"
+          },
+          "tekstas": {
+            "lt": "Iš oro matyti tik pušynas: po 1931 m. buvusio poligono teritorija palaipsniui apaugo mišku. Pylimus ir griovius po medžiais atskleidžia tik 2025 m. LiDAR duomenys.",
+            "en": "From the air only pine forest can be seen: after 1931 the former range gradually grew over with forest. Only the 2025 LiDAR data reveal the ramparts and ditches under the trees."
+          },
+          "vaizdas": "assets/pano_web/redutai/img/lidar.jpg",
+          "vaizdo_paaiskinimas": {
+            "lt": "Esama būklė pagal NŽT LiDAR 2025: mėlyna – grioviai, balta – aukščiausios pylimų vietos.",
+            "en": "Present state from NŽT LiDAR 2025: blue – ditches, white – the highest parts of the ramparts."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 3776,
+        "basePath": "assets/pano_mr/redutai/is_oro"
+      },
+      "mr_saltinis": "../Panoramos 360 foto is oro/Redutai pano.jpg"
+    }
+  ],
+  "mini3d": {
+    "glb": "assets/mini3d/_orto_test/redutai.glb",
+    "taskai": {
+      "r_pylimas": {
+        "p": [
+          170.69,
+          -116.875,
+          6.04
+        ],
+        "h": 101.94
+      },
+      "r_pratybos": {
+        "p": [
+          -76.35,
+          38.24,
+          5.35
+        ],
+        "h": -124.73
+      },
+      "r_priesais": {
+        "p": [
+          117.92,
+          122.96,
+          14.72
+        ],
+        "h": -123.93
+      },
+      "is_oro": {
+        "p": [
+          47,
+          3,
+          45
+        ]
+      },
+      "d_1": {
+        "p": [
+          -170.9,
+          -36.4,
+          null
+        ]
+      },
+      "d_2": {
+        "p": [
+          -130.1,
+          9.5,
+          null
+        ]
+      },
+      "d_3": {
+        "p": [
+          173.0,
+          8.7,
+          null
+        ]
+      },
+      "d_4": {
+        "p": [
+          203.2,
+          66.4,
+          null
+        ]
+      }
+    },
+    "_pastaba": "Taškai iš v9 kamerų Kamera_Panorama_02/04/03; priskyrimas scenoms pagal saulės kryptį – apytikslis, patvirtina Saulius.",
+    "centras": [
+      47,
+      3,
+      0
+    ],
+    "atstumas": 470,
+    "zMastelis": 2,
+    "mastelis": 4,
+    "uzuomina": {
+      "lt": "Paspausk taško žymę – pereisi į tą panoramą. Paspausk modelį – padidinsi.",
+      "en": "Tap a point to go to that panorama. Tap the model to enlarge."
+    },
+    "atgal": {
+      "lt": "← Atgal į panoramą",
+      "en": "← Back to panorama"
+    }
+  }
+}

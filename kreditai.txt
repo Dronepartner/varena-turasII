@@ -1,0 +1,25 @@
+Varėnos poligono virtuali lenta – kreditai
+
+Garsai
+- Visi garsai (tylus vėjo pušyne fonas, monetos trynimo šnaresys, figūrėlės paėmimo ir padėjimo bakstelėjimai, „Netrukus“ atsivėrimas)
+  sintezuojami naršyklėje Web Audio API (app.js, modulis „Garsas“) iš triukšmo ir tonų generatorių.
+  Įrašų failų nėra. Garsai skirti viešajai sričiai – CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+- Garsas įsijungia tik po pirmo paspaudimo; išjungiamas mygtuku kampe.
+
+Žemėlapiai
+- Ortofoto: NŽT ORT10LT 2025 (Geoportal.lt). LiDAR reljefas: NŽT LiDAR 2025 (Geoportal.lt). Apdorojimas: Virtualus turas\duomenys.
+
+Bibliotekos
+- Leaflet (BSD-2-Clause), https://leafletjs.com
+- Pannellum (MIT) – lib\pannellum, panoramoms (dar nenaudojama).
+
+Kūrėjai
+- Sukūrė Saulius Zaura Varėnos rajono savivaldybės administracijos užsakymu.
+- Created as part of the project: “Fort-Union – Integration of the Polish–Lithuanian Network of Fortifications for the Development of Representative Tourism Products”
+
+Figūrėlės
+- Projekto 3D modelių renderiai, pagerinti S. Žauros (Virtualus turas\renderiai_enhansed).
+
+360° turai
+- Panoramos: S. Zaura (šiandieninės 360° nuotraukos; 3D rekonstrukcijų renderiai, patobulinti pagalbinėmis dirbtinio intelekto priemonėmis).
+- Istorijų tekstai ir vaizdai – iš S. Zauros ataskaitų (sandėlių, stoties zonos, tiltų, redutų); archyviniai vaizdai: Šiaulių „Aušros“ muziejus (ŠAM F-SF-1452), G. Jaronienės kolekcija (Varėnos r. sav. viešoji biblioteka).

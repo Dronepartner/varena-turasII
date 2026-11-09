@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#1a130c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Varėnos poligonas – lenta</title>
+<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+<link rel="stylesheet" href="lib/pannellum/pannellum.css">
+<link rel="stylesheet" href="style.css?v=43">
+</head>
+<body>
+<div id="lenta">
+  <div id="map"></div>
+  <div id="patina" aria-hidden="true"></div>
+  <svg id="remas" aria-hidden="true"></svg>
+  <div id="lentele"><b data-i18n="lentele_pav"></b><small>1877 – 1931</small></div>
+
+  <div id="piktogramos">
+    <button id="btn-kalba" class="pikt tekstinis" data-i18n-title="t_kalba">EN</button>
+    <button id="btn-info" class="pikt" data-i18n-title="t_info">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".6" class="taskas"/></svg>
+    </button>
+    <button id="btn-garsas" class="pikt" data-i18n-title="t_garsas" aria-pressed="false">
+      <svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="banga" d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/><path class="x" d="M17 9l4 6M21 9l-4 6"/></svg>
+    </button>
+    <button class="pikt btn-pilnas" data-i18n-title="t_pilnas"><svg viewBox="0 0 24 24"><path class="pl" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/><path class="sut" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg></button>
+    <button id="btn-is-naujo" class="pikt" data-i18n-title="t_is_naujo">
+      <svg viewBox="0 0 24 24"><path d="M5 12a7 7 0 1 0 2-5"/><path d="M4 3v5h5"/></svg>
+    </button>
+  </div>
+
+  <div id="moneta-dekla">
+    <div id="moneta" data-i18n-title="t_moneta"></div>
+    <div id="moneta-veiksmai">
+      <button id="btn-atsaukti" class="mazas" data-i18n-title="t_atsaukti">↶</button>
+      <button id="btn-viska" class="mazas" data-i18n-title="t_viska">⬚</button>
+    </div>
+  </div>
+
+  <div id="figuru-lentyna"></div>
+
+  <div id="rodykle" hidden><svg viewBox="0 0 40 40"><path d="M6 20h22M20 10l10 10-10 10"/></svg></div>
+  <div id="patarimas"></div>
+</div>
+
+<div id="skrydis" aria-hidden="true"></div>
+<div id="uzuomina" class="burbulas" hidden><p></p></div>
+
+<div id="portalas" class="uzdanga" hidden>
+  <div id="turas" hidden>
+    <div id="pano"></div>
+    <div id="turo-info">
+      <h2 id="turo-pav"></h2>
+      <p id="turo-scena"></p>
+      <p id="turo-ivadas"></p>
+      <button id="btn-ivadas" class="mazas2" data-i18n-title="t_ivadas">i</button>
+    </div>
+    <div id="turo-mygtukai">
+      <button id="btn-turo-kalba" class="pikt tekstinis">EN</button>
+      <button class="pikt btn-pilnas" data-i18n-title="t_pilnas"><svg viewBox="0 0 24 24"><path class="pl" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/><path class="sut" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg></button>
+      <button id="btn-i-lenta" class="zalvarinis" data-i18n="grizti"></button>
+    </div>
+    <div id="turo-juosta"></div>
+    <div id="istorija" class="korta" hidden>
+      <button class="uzdaryti" data-i18n-title="uzdaryti">×</button>
+      <h3 id="ist-antraste"></h3>
+      <p id="ist-tekstas"></p>
+      <figure id="ist-fig" hidden><img id="ist-img" alt=""><figcaption id="ist-paaisk"></figcaption></figure>
+    </div>
+  </div>
+  <div id="portalo-korta" class="korta">
+    <img id="portalo-fig" alt="">
+    <h2 id="portalo-pav"></h2>
+    <p class="netrukus" data-i18n="netrukus"></p>
+    <p class="paaiskinimas" data-i18n="netrukus_txt"></p>
+    <button id="btn-grizti" class="zalvarinis" data-i18n="grizti"></button>
+  </div>
+</div>
+
+<div id="info" class="uzdanga" hidden>
+  <div class="korta info-korta">
+    <button class="uzdaryti" data-i18n-title="uzdaryti">×</button>
+    <div class="korteles" role="tablist">
+      <button class="kortele aktyvi" data-skirtukas="apie" role="tab" data-i18n="sk_apie"></button>
+      <button class="kortele" data-skirtukas="naudotis" role="tab" data-i18n="sk_naudotis"></button>
+      <button class="kortele" data-skirtukas="modeliai" role="tab" data-i18n="sk_modeliai"></button>
+      <button class="kortele" data-skirtukas="ataskaitos" role="tab" data-i18n="sk_ataskaitos"></button>
+      <button class="kortele" data-skirtukas="edukacija" role="tab" data-i18n="sk_edukacija"></button>
+      <button class="kortele" data-skirtukas="kurejai" role="tab" data-i18n="sk_kurejai"></button>
+    </div>
+    <div id="sk-apie" class="skirtukas">
+      <div id="info-apie"></div>
+    </div>
+    <div id="sk-naudotis" class="skirtukas" hidden>
+      <div id="info-naudotis"></div>
+      <div class="info-mygtukai"><button id="btn-mokymas" class="zalvarinis" data-i18n="kaip_zaisti"></button></div>
+    </div>
+    <div id="sk-modeliai" class="skirtukas" hidden><div id="info-modeliai"></div></div>
+    <div id="sk-ataskaitos" class="skirtukas" hidden><div id="info-ataskaitos"></div></div>
+    <div id="sk-edukacija" class="skirtukas" hidden><div id="info-edukacija"></div></div>
+    <div id="sk-kurejai" class="skirtukas" hidden>
+      <div id="info-kurejai"></div>
+      <div class="logotipai">
+        <img src="assets/img/logo_fort_union.webp" alt="Fort-Union">
+        <img src="assets/img/logo_interreg.webp" alt="Interreg Lietuva–Lenkija">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mokymas" hidden>
+  <div id="mok-spot"></div>
+  <div id="mok-burbulas" class="burbulas">
+    <p id="mok-tekstas"></p>
+    <div class="mok-apacia">
+      <span id="mok-nr"></span>
+      <button id="mok-praleisti" class="mok-btn antrinis" data-i18n="praleisti"></button>
+      <button id="mok-toliau" class="mok-btn zalvarinis" data-i18n="toliau"></button>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">{"imports":{"three":"./lib/three/three.module.min.js"}}</script>
+<script src="nustatymai.js"></script>
+<script src="lib/leaflet/leaflet.js"></script>
+<script src="lib/pannellum/pannellum.js"></script>
+<script src="app.js?v=52"></script>
+</body>
+</html>

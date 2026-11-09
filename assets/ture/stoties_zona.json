@@ -1,0 +1,845 @@
+{
+ "_paaiskinimas": "Stoties zonos turas (stotis, vandens bokštas, karininkų klubas, cerkvė, barakai, karinis miestelis). rusis: 'dabar' – šiandieninė 360° nuotrauka, 'rekonstrukcija' – ~1905–1914 m. vaizdas (v4: 6 miestelio panoramos iš zona_v2.blend, _skriptai/miestelis_v4.py). siaure: panoramos vidurio azimutas.",
+ "pavadinimas": {
+  "lt": "Artilerijos stotis ir karinis miestelis",
+  "en": "Artillery station and military town"
+ },
+ "ivadas": {
+  "lt": "1894 m. nutiesus geležinkelio atšaką, prie Varėnės įrengta Artilerijos stotis su vandens bokštu, o ant skardžio išaugo karinis miestelis. Šiandieninės 360° nuotraukos rodo išlikusią stotį ir bokštą; rekonstrukcijos (~1905–1914 m.) – 3D modelio vaizdai. Žmonės ir traukinys – iliustracija.",
+  "en": "After the railway branch was built in 1894, the Artillery station with a water tower was set up by the Varėnė, and a military town grew on the bluff. Today’s 360° photos show the surviving station and tower; the reconstructions (c. 1905–1914) are views of the 3D model. People and the train are illustrative."
+ },
+ "pradzia": "st_priekis",
+ "scenos": [
+  {
+   "id": "st_priekis",
+   "failas": "Kareivines, stotis, bokstas/Varena_P04_R0011644-R0011652_8192x4096.jpg",
+   "rusis": "dabar",
+   "pavadinimas": {
+    "lt": "Stotis šiandien",
+    "en": "The station today"
+   },
+   "yaw": 0,
+   "pitch": 4,
+   "perejimai": [
+    {
+     "i": "r_peronas",
+     "yaw": -40,
+     "pitch": 18,
+     "uzrasas": {
+      "lt": "Kaip atrodė ~1910 m.",
+      "en": "As it looked c. 1910"
+     }
+    },
+    {
+     "i": "st_kiemas",
+     "yaw": 58,
+     "pitch": -2,
+     "uzrasas": {
+      "lt": "Perono pusė",
+      "en": "Platform side"
+     }
+    },
+    {
+     "i": "r_sankryza",
+     "yaw": 180,
+     "pitch": -6,
+     "uzrasas": {
+      "lt": "Į gyvenvietę (~1910 m.)",
+      "en": "To the settlement (c. 1910)"
+     }
+    },
+    {
+     "i": "r_virsus",
+     "yaw": 110.0,
+     "pitch": 22.0,
+     "uzrasas": {
+      "lt": "Iš paukščio skrydžio (~1910 m.)",
+      "en": "Bird’s-eye view (c. 1910)"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": 0,
+     "pitch": 14,
+     "antraste": {
+      "lt": "Buvusi Artilerijos stotis",
+      "en": "The former Artillery station"
+     },
+     "tekstas": {
+      "lt": "Mūrinė stotis (apie 28 × 10 m) su arkiniais langais ir išsikišusiu įėjimo prieangiu pastatyta 1894 m., kai nutiesta geležinkelio atšaka. Prie jos buvo peronas pabūklams ir arkliams iškrauti. Tai vienas iš dviejų stovyklos pastatų, išlikusių iki šiol.",
+      "en": "The brick station (about 28 × 10 m) with arched windows and a projecting entrance porch was built in 1894, when the railway branch was laid. Beside it was a platform for unloading guns and horses. It is one of the two camp buildings that survive today."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/stotis_dabar.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "Stotis šiandien. Nuotr. S. Zaura.",
+      "en": "The station today. Photo: S. Zaura."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 2560,
+    "basePath": "assets/pano_mr/stoties_zona/st_priekis"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/Varena_P04_R0011644-R0011652_8192x4096.jpg",
+   "objektas": "stotis"
+  },
+  {
+   "id": "st_kiemas",
+   "failas": "Kareivines, stotis, bokstas/Varena_P02_R0011626-R0011634_8192x4096.jpg",
+   "rusis": "dabar",
+   "pavadinimas": {
+    "lt": "Perono pusė",
+    "en": "Platform side"
+   },
+   "yaw": 0,
+   "pitch": 2,
+   "perejimai": [
+    {
+     "i": "st_priekis",
+     "yaw": 0,
+     "pitch": -8
+    },
+    {
+     "i": "st_toli",
+     "yaw": 180,
+     "pitch": -6
+    },
+    {
+     "i": "r_peronas",
+     "yaw": 107,
+     "pitch": -4,
+     "poslinkis": -122,
+     "uzrasas": {
+      "lt": "Peronas ~1910 m.",
+      "en": "The platform c. 1910"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": 107,
+     "pitch": -18,
+     "antraste": {
+      "lt": "Peronas",
+      "en": "The platform"
+     },
+     "tekstas": {
+      "lt": "Šioje stoties pusėje ėjo bėgiai ir peronas, ant kurio iškraudavo pabūklus ir arklius. 1926 m. sausio 16 d. eismas ruože Artilerijos stotis–Alytus nutrauktas, vėliau atšaka išardyta.",
+      "en": "On this side of the station ran the track and the platform where guns and horses were unloaded. On 16 January 1926 traffic on the Artillery station–Alytus section was stopped, and the branch was later dismantled."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 2560,
+    "basePath": "assets/pano_mr/stoties_zona/st_kiemas"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/Varena_P02_R0011626-R0011634_8192x4096.jpg",
+   "objektas": "stotis"
+  },
+  {
+   "id": "st_toli",
+   "failas": "Kareivines, stotis, bokstas/Varena_P03_R0011635-R0011643_8192x4096.jpg",
+   "rusis": "dabar",
+   "pavadinimas": {
+    "lt": "Prie stoties",
+    "en": "Near the station"
+   },
+   "yaw": 0,
+   "pitch": 2,
+   "perejimai": [
+    {
+     "i": "st_kiemas",
+     "yaw": 0,
+     "pitch": -5
+    }
+   ],
+   "istorijos": [],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 2560,
+    "basePath": "assets/pano_mr/stoties_zona/st_toli"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/Varena_P03_R0011635-R0011643_8192x4096.jpg",
+   "objektas": "stotis"
+  },
+  {
+   "id": "bokstas_arti",
+   "failas": "Kareivines, stotis, bokstas/Varena_P05_R0011653-R0011661_8192x4096.jpg",
+   "rusis": "dabar",
+   "siaure": 225,
+   "pavadinimas": {
+    "lt": "Vandens bokštas",
+    "en": "Water tower"
+   },
+   "yaw": 0,
+   "pitch": 8,
+   "perejimai": [
+    {
+     "i": "bokstas_toli",
+     "yaw": 180,
+     "pitch": -6
+    },
+    {
+     "i": "st_priekis",
+     "yaw": 28,
+     "pitch": -6,
+     "uzrasas": {
+      "lt": "Į stotį",
+      "en": "To the station"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": 0,
+     "pitch": 22,
+     "antraste": {
+      "lt": "Vanduo garvežiams",
+      "en": "Water for the locomotives"
+     },
+     "tekstas": {
+      "lt": "Šalia stoties 1894 m. pastatytas vandens bokštas garvežiams. Jis aštuonkampio liemens, o įėjimas atsuktas į šiaurės rytus. Kartu su stotimi tai vieninteliai išlikę stovyklos pastatai.",
+      "en": "The water tower for the steam locomotives was built next to the station in 1894. It has an octagonal shaft, and its entrance faces north-east. Together with the station, these are the only camp buildings that survive."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/stotis_1910.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "Stotis ir vandens bokštas ~1910 m. Rekonstrukcija.",
+      "en": "The station and water tower c. 1910. Reconstruction."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 2560,
+    "basePath": "assets/pano_mr/stoties_zona/bokstas_arti"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/Varena_P05_R0011653-R0011661_8192x4096.jpg",
+   "objektas": "bokstas"
+  },
+  {
+   "id": "bokstas_toli",
+   "failas": "Kareivines, stotis, bokstas/Varena_P06_R0011662-R0011670_8192x4096.jpg",
+   "rusis": "dabar",
+   "pavadinimas": {
+    "lt": "Bokštas pušyne",
+    "en": "The tower in the pines"
+   },
+   "yaw": -36,
+   "pitch": 4,
+   "perejimai": [
+    {
+     "i": "bokstas_arti",
+     "yaw": -36,
+     "pitch": -5
+    }
+   ],
+   "istorijos": [],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 4,
+    "cubeResolution": 2560,
+    "basePath": "assets/pano_mr/stoties_zona/bokstas_toli"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/Varena_P06_R0011662-R0011670_8192x4096.jpg",
+   "objektas": "bokstas"
+  },
+  {
+   "id": "r_peronas",
+   "failas": "Kareivines, stotis, bokstas/miestelis_v2/P_peronas.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Peronas ~1910 m.",
+    "en": "The platform c. 1910"
+   },
+   "yaw": 0,
+   "pitch": 0,
+   "siaure": 222.0,
+   "perejimai": [
+    {
+     "i": "st_kiemas",
+     "yaw": -25.0,
+     "pitch": -38.0,
+     "uzrasas": {
+      "lt": "Šiandien",
+      "en": "Today"
+     }
+    },
+    {
+     "i": "st_priekis",
+     "yaw": -78.0,
+     "pitch": 4.0,
+     "uzrasas": {
+      "lt": "Į stoties priekį",
+      "en": "To the station front"
+     }
+    },
+    {
+     "i": "bokstas_arti",
+     "yaw": -177.1,
+     "pitch": -6.0,
+     "uzrasas": {
+      "lt": "Vandens bokštas",
+      "en": "Water tower"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -8.7,
+     "pitch": 10.2,
+     "antraste": {
+      "lt": "Atšaka į stovyklą",
+      "en": "The branch line to the camp"
+     },
+     "tekstas": {
+      "lt": "1894 m. nutiesta geležinkelio atšaka. Artilerijos stotyje buvo iškraunami pabūklai ir arkliai, o vandens bokštas aprūpindavo garvežius vandeniu.",
+      "en": "The railway branch was laid in 1894. Guns and horses were unloaded at the Artillery station, and the water tower supplied the locomotives with water."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1280,
+    "basePath": "assets/pano_mr/stoties_zona/r_peronas"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/miestelis_v2/P_peronas.png",
+   "objektas": "stotis"
+  },
+  {
+   "id": "r_sankryza",
+   "failas": "Kareivines, stotis, bokstas/miestelis_v2/P_sankryza_didzioji_gatve.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Karinio miestelio gyvenvietė",
+    "en": "Military town settlement"
+   },
+   "yaw": 7.2,
+   "pitch": 0,
+   "siaure": 35.8,
+   "perejimai": [
+    {
+     "i": "r_peronas",
+     "yaw": 7.2,
+     "pitch": 5.5,
+     "uzrasas": {
+      "lt": "Į stotį",
+      "en": "To the station"
+     },
+     "poslinkis": 173.7
+    },
+    {
+     "i": "r_klubas",
+     "yaw": -153.0,
+     "pitch": 4.0,
+     "uzrasas": {
+      "lt": "Prie cerkvės ir klubo",
+      "en": "To the church and club"
+     },
+     "poslinkis": 174.7
+    },
+    {
+     "i": "r_virsus",
+     "yaw": -60.6,
+     "pitch": 35.0,
+     "uzrasas": {
+      "lt": "Iš paukščio skrydžio",
+      "en": "Bird’s-eye view"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -46.8,
+     "pitch": -6,
+     "antraste": {
+      "lt": "Gyvenamieji karinio miestelio pastatai",
+      "en": "Residential buildings of the military town"
+     },
+     "tekstas": {
+      "lt": "Prie karininkų klubo ir cerkvės stovėjo mediniai gyvenamieji namai. Jų tikslus skaičius ir išvaizda prieš Pirmąjį pasaulinį karą nežinomi: 1895 m. stovyklos plane numatyti karininkų namai, o dailininkas M. Dobužinskis prisimena „karininkų keliuką“ su mediniais karininkų nameliais. 1915 m. vokiečių žemėlapyje palei kelią nuo klubo link stoties pažymėtas užstatymas, o 1922 m. visoje stovykloje dar suskaičiuota apie 560 medinių pastatų. Rekonstrukcijoje namų vietos ir dydžiai apytiksliai – pagal 1915 m. žemėlapį ir LiDAR reljefą (hipotezė).",
+      "en": "Wooden residential houses stood near the officers’ club and the church. Their exact number and appearance before the First World War are unknown: the 1895 camp plan provided for officers’ houses, and the painter M. Dobužinskis recalled the “officers’ lane” with small wooden officers’ houses. The 1915 German map shows buildings along the road from the club towards the station, and in 1922 about 560 wooden buildings were still counted in the whole camp. In the reconstruction the positions and size of the houses are approximate, based on the 1915 map and the LiDAR relief (hypothesis)."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1280,
+    "basePath": "assets/pano_mr/stoties_zona/r_sankryza"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/miestelis_v2/P_sankryza_didzioji_gatve.png",
+   "galva": {
+    "lt": "Karinis miestelis",
+    "en": "Military town"
+   }
+  },
+  {
+   "id": "r_klubas",
+   "failas": "Kareivines, stotis, bokstas/miestelis_v2/P_klubo_parkas_vartai.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Klubo parkas ir cerkvė",
+    "en": "The club park and the church"
+   },
+   "yaw": 7.5,
+   "pitch": 0,
+   "siaure": 216.8,
+   "perejimai": [
+    {
+     "i": "r_parkas",
+     "yaw": -6.6,
+     "pitch": -8.0,
+     "uzrasas": {
+      "lt": "Klubas iš pietų",
+      "en": "The club from the south"
+     },
+     "poslinkis": -165.7
+    },
+    {
+     "i": "r_sankryza",
+     "yaw": -158.3,
+     "pitch": -8.0,
+     "uzrasas": {
+      "lt": "Į gyvenvietę",
+      "en": "To the settlement"
+     },
+     "poslinkis": -179.0
+    },
+    {
+     "i": "r_virsus",
+     "yaw": -162.5,
+     "pitch": 15.0,
+     "uzrasas": {
+      "lt": "Iš paukščio skrydžio",
+      "en": "Bird’s-eye view"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": 7.5,
+     "pitch": 10.4,
+     "antraste": {
+      "lt": "Karininkų klubas",
+      "en": "The officers’ club"
+     },
+     "tekstas": {
+      "lt": "Ant Varėnės skardžio stovėjo dviejų aukštų mūrinis karininkų klubas (1903 m. projektas) su kiemu ir fontanu. 1927–1944 m. jame veikė valstybinė džiovos sanatorija; 1944 m. pastatas susprogdintas. Šiandien jo vietoje – griuvėsių kauburys.",
+      "en": "A two-storey brick officers’ club (designed in 1903) with a courtyard and a fountain stood on the Varėnė bluff. In 1927–1944 it housed a state tuberculosis sanatorium; in 1944 the building was blown up. Today a mound of ruins marks the site."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/klubas_archyvas.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "„Varėnos sanatorija“ – buvęs karininkų klubas. Šiaulių „Aušros“ muziejus, ŠAM F-SF-1452.",
+      "en": "“Varėna sanatorium” – the former officers’ club. Šiauliai “Aušra” Museum, ŠAM F-SF-1452."
+     }
+    },
+    {
+     "yaw": 137.0,
+     "pitch": 4.7,
+     "antraste": {
+      "lt": "Medinė cerkvė",
+      "en": "The wooden church"
+     },
+     "tekstas": {
+      "lt": "Beržų alėjos gale stovėjo medinė cerkvė su vartų paviljonu ir Jekaterinos II paminklu. Cerkvės projektas parengtas 1902–1903 m. Šiandien jos vieta apaugusi mišku.",
+      "en": "At the end of the birch avenue stood a wooden Orthodox church with a gate pavilion and a monument to Catherine II. The church was designed in 1902–1903. Today its site is overgrown with forest."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/cerkve_archyvas.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "Cerkvė ir paminklas. G. Jaronienės kolekcija, Varėnos r. sav. viešoji biblioteka.",
+      "en": "The church and the monument. G. Jaronienė collection, Varėna District Public Library."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1280,
+    "basePath": "assets/pano_mr/stoties_zona/r_klubas"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/miestelis_v2/P_klubo_parkas_vartai.png",
+   "objektas": "klubas"
+  },
+  {
+   "id": "r_parkas",
+   "failas": "Kareivines, stotis, bokstas/miestelis_v2/P_klubo_parkas_pietus.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Klubo parkas iš pietų",
+    "en": "The club park from the south"
+   },
+   "yaw": -15.2,
+   "pitch": 0,
+   "siaure": 22.5,
+   "perejimai": [
+    {
+     "i": "r_klubas",
+     "yaw": 7.7,
+     "pitch": -8.0,
+     "uzrasas": {
+      "lt": "Prie cerkvės ir klubo",
+      "en": "To the church and club"
+     },
+     "poslinkis": 165.7
+    },
+    {
+     "i": "r_rikiuote",
+     "yaw": 155.2,
+     "pitch": -8.0,
+     "uzrasas": {
+      "lt": "Į rikiuotės aikštę",
+      "en": "To the parade ground"
+     },
+     "poslinkis": -22.5
+    },
+    {
+     "i": "r_virsus",
+     "yaw": 24.4,
+     "pitch": 15.0,
+     "uzrasas": {
+      "lt": "Iš paukščio skrydžio",
+      "en": "Bird’s-eye view"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -15.2,
+     "pitch": 6,
+     "antraste": {
+      "lt": "Klubo parkas",
+      "en": "The club park"
+     },
+     "tekstas": {
+      "lt": "Karininkų klubas su kiemu ir fontanu stovėjo ant Varėnės skardžio. Parko takų, gėlynų ir medžių išdėstymas rekonstrukcijoje – hipotezė pagal to meto dvarų parkus; tikslaus parko plano nėra.",
+      "en": "The officers’ club with its courtyard and fountain stood on the Varėnė bluff. The layout of the park paths, flower beds and trees in the reconstruction is a hypothesis based on manor parks of the period; no exact plan of the park is known."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1280,
+    "basePath": "assets/pano_mr/stoties_zona/r_parkas"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/miestelis_v2/P_klubo_parkas_pietus.png",
+   "objektas": "klubas"
+  },
+  {
+   "id": "r_rikiuote",
+   "failas": "Kareivines, stotis, bokstas/miestelis_v2/P_rikiuotes_aikste.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Rikiuotės aikštė",
+    "en": "The parade ground"
+   },
+   "yaw": 0,
+   "pitch": 0,
+   "siaure": 45.0,
+   "perejimai": [
+    {
+     "i": "r_parkas",
+     "yaw": -47.3,
+     "pitch": -8.0,
+     "uzrasas": {
+      "lt": "Klubas iš pietų",
+      "en": "The club from the south"
+     },
+     "poslinkis": 22.5
+    },
+    {
+     "i": "r_virsus",
+     "yaw": -14.9,
+     "pitch": 15.0,
+     "uzrasas": {
+      "lt": "Iš paukščio skrydžio",
+      "en": "Bird’s-eye view"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -71.1,
+     "pitch": 5.8,
+     "antraste": {
+      "lt": "Barakai ir stovyklos likimas",
+      "en": "Barracks and the fate of the camp"
+     },
+     "tekstas": {
+      "lt": "1895 m. stovyklos generaliniame plane numatytos kareivinės, cerkvė ir karininkų klubas; kariai gyveno rąstiniuose barakuose. 1915 m. traukdamiesi rusai padegė dalį pastatų, 1915–1918 m. vokiečiai dalį atstatė. 1919–1922 m. stovykla perduota Lietuvai; 1922 m. joje dar buvo apie 560 medinių namų; 1925–1930 m. poligone pratybas rengė Lietuvos kariuomenė. Šiandien pastatų vietos po mišku, bet matomos LiDAR duomenyse.",
+      "en": "The 1895 master plan of the camp provided for barracks, a church and an officers’ club; soldiers lived in log barracks. In 1915 the retreating Russians burned part of the buildings, and in 1915–1918 the Germans rebuilt some of them. In 1919–1922 the camp passed to Lithuania; in 1922 it still had about 560 wooden houses; in 1925–1930 the Lithuanian army held exercises on the range. Today the building sites lie under forest but show in the LiDAR data."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/zona_lidar.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "LiDAR reljefas: 1 stotis, 2 peronas, 3 vandens bokštas, 4 klubas, 5 cerkvė, 6–7 barakai, 8 beržų alėja.",
+      "en": "LiDAR relief: 1 station, 2 platform, 3 water tower, 4 club, 5 church, 6–7 barracks, 8 birch avenue."
+     }
+    },
+    {
+     "yaw": 0,
+     "pitch": -24,
+     "antraste": {
+      "lt": "Rikiuotės aikštė",
+      "en": "The parade ground"
+     },
+     "tekstas": {
+      "lt": "Tarp dviejų rąstinių barakų buvo rikiuotės placas. 1895 m. stovyklos generaliniame plane numatytos kareivinės, arklidės ir sandėliai.",
+      "en": "Between the two log barracks lay the parade ground. The 1895 master plan of the camp provided for barracks, stables and storehouses."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1280,
+    "basePath": "assets/pano_mr/stoties_zona/r_rikiuote"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/miestelis_v2/P_rikiuotes_aikste.png",
+   "objektas": "barakai"
+  },
+  {
+   "id": "r_virsus",
+   "failas": "Kareivines, stotis, bokstas/miestelis_v2/P_oras_miestelis.png",
+   "rusis": "rekonstrukcija",
+   "pavadinimas": {
+    "lt": "Karinis miestelis iš paukščio skrydžio",
+    "en": "The military town from above"
+   },
+   "yaw": 17.0,
+   "pitch": -12,
+   "siaure": 215.2,
+   "perejimai": [
+    {
+     "i": "r_peronas",
+     "yaw": -166.5,
+     "pitch": -11.0,
+     "uzrasas": {
+      "lt": "Į stotį",
+      "en": "To the station"
+     }
+    },
+    {
+     "i": "r_sankryza",
+     "yaw": -45.7,
+     "pitch": -75.3,
+     "uzrasas": {
+      "lt": "Į gyvenvietę",
+      "en": "To the settlement"
+     }
+    },
+    {
+     "i": "r_klubas",
+     "yaw": 19.3,
+     "pitch": -15.8,
+     "uzrasas": {
+      "lt": "Prie cerkvės ir klubo",
+      "en": "To the church and club"
+     }
+    },
+    {
+     "i": "r_parkas",
+     "yaw": 11.7,
+     "pitch": -9.0,
+     "uzrasas": {
+      "lt": "Klubas iš pietų",
+      "en": "The club from the south"
+     }
+    },
+    {
+     "i": "r_rikiuote",
+     "yaw": -5.1,
+     "pitch": -8.1,
+     "uzrasas": {
+      "lt": "Į rikiuotės aikštę",
+      "en": "To the parade ground"
+     }
+    }
+   ],
+   "istorijos": [
+    {
+     "yaw": -45.7,
+     "pitch": -22,
+     "antraste": {
+      "lt": "Karinis miestelis",
+      "en": "The military town"
+     },
+     "tekstas": {
+      "lt": "Ant Varėnės skardžio išaugo karinis miestelis. 1922 m. visoje stovykloje dar suskaičiuota apie 560 medinių pastatų. Šiandien beveik visų pastatų vietos – po mišku.",
+      "en": "A military town grew up on the Varėnė bluff. In 1922 about 560 wooden buildings were still counted in the whole camp. Today almost all the building sites lie under forest."
+     },
+     "vaizdas": "assets/pano_web/stoties_zona/img/miestelis_miniworld.jpg",
+     "vaizdo_paaiskinimas": {
+      "lt": "Miestelis ~1910 m. – rekonstrukcijos vaizdas iš viršaus.",
+      "en": "The town c. 1910 – a reconstruction view from above."
+     }
+    }
+   ],
+   "mr": {
+    "path": "/%l/%s%y_%x",
+    "fallbackPath": "/fallback/%s",
+    "extension": "jpg",
+    "tileResolution": 512,
+    "maxLevel": 3,
+    "cubeResolution": 1280,
+    "basePath": "assets/pano_mr/stoties_zona/r_virsus"
+   },
+   "mr_saltinis": "assets/pano/Kareivines, stotis, bokstas/miestelis_v2/P_oras_miestelis.png",
+   "galva": {
+    "lt": "Karinis miestelis",
+    "en": "Military town"
+   }
+  }
+ ],
+ "mini3d": {
+  "glb": "assets/mini3d/stoties_zona.glb",
+  "taskai": {
+   "st_priekis": {
+    "p": [
+     205,
+     320,
+     null
+    ],
+    "h": 0
+   },
+   "st_toli": {
+    "p": [
+     190,
+     320,
+     null
+    ],
+    "h": 0
+   },
+   "st_kiemas": {
+    "p": [
+     252,
+     320,
+     null
+    ],
+    "h": 180
+   },
+   "bokstas_arti": {
+    "p": [
+     288.6,
+     385.1,
+     null
+    ],
+    "h": -120.6
+   },
+   "bokstas_toli": {
+    "p": [
+     305.8,
+     396.6,
+     null
+    ],
+    "h": -169.5
+   },
+   "r_peronas": {
+    "p": [
+     234.212,
+     329.999,
+     24.11
+    ],
+    "h": -132.0
+   },
+   "r_sankryza": {
+    "p": [
+     3.15,
+     81.34,
+     22.95
+    ],
+    "h": 54.2
+   },
+   "r_klubas": {
+    "p": [
+     -209.11,
+     -48.77,
+     22.79
+    ],
+    "h": -125.4
+   },
+   "r_parkas": {
+    "p": [
+     -268.0,
+     -150.0,
+     22.24
+    ],
+    "h": 67.5
+   },
+   "r_rikiuote": {
+    "p": [
+     -260.0,
+     -348.0,
+     21.04
+    ],
+    "h": 45.0
+   },
+   "r_virsus": {
+    "p": [
+     -0.32,
+     100.0,
+     94.4
+    ],
+    "h": -125.2
+   }
+  },
+  "_pastaba": "Taškai iš zona_v2.blend kamerų (P_peronas, P_sankryza_didzioji_gatve, P_klubo_parkas_vartai, P_klubo_parkas_pietus, P_rikiuotes_aikste, P_oras_miestelis).",
+  "centras": [
+   20,
+   140,
+   15
+  ],
+  "atstumas": 1100,
+  "zMastelis": 1.5,
+  "mastelis": 7,
+  "uzuomina": {
+   "lt": "Paspausk taško žymę – pereisi į tą panoramą. Paspausk modelį – padidinsi.",
+   "en": "Tap a point to go to that panorama. Tap the model to enlarge."
+  },
+  "atgal": {
+   "lt": "← Atgal į panoramą",
+   "en": "← Back to panorama"
+  },
+  "spalvos": {
+   "zona_reljefas": "#8a8457",
+   "gk_peronas": "#9a8f7a"
+  }
+ }
+}

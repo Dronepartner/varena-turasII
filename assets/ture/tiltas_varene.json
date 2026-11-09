@@ -1,0 +1,237 @@
+{
+  "_paaiskinimas": "Geležinkelio tilto per Varėnę (Glūko tilto) turas. Rodyklių kryptys tarp vaizdų – apytikslės.",
+  "pavadinimas": {
+    "lt": "Tiltas per Varėnę (Glūko)",
+    "en": "Bridge over the Varėnė (Glūkas)"
+  },
+  "ivadas": {
+    "lt": "1899 m. atidarytame Varėnos–Alytaus–Suvalkų–Gardino geležinkelyje per Varėnę prie Glūko kaimo stovėjo plieninis tiltas. Panoramos – 3D rekonstrukcijos (1899 m. būklė) vaizdai.",
+    "en": "On the Varėna–Alytus–Suwałki–Grodno railway, opened in 1899, a steel bridge crossed the Varėnė near Glūkas village. The panoramas are renders of the 3D reconstruction (state in 1899)."
+  },
+  "pradzia": "krantas",
+  "scenos": [
+    {
+      "id": "krantas",
+      "failas": "Tiltas Varėnė/Panoramic Railway Bridge Over River.png",
+      "rusis": "rekonstrukcija",
+      "pavadinimas": {
+        "lt": "Nuo kranto",
+        "en": "From the bank"
+      },
+      "yaw": 0,
+      "pitch": 2,
+      "perejimai": [
+        {
+          "i": "ant_tilto",
+          "yaw": 0,
+          "pitch": 6,
+          "uzrasas": {
+            "lt": "Ant tilto",
+            "en": "On the bridge"
+          }
+        },
+        {
+          "i": "po_tiltu",
+          "yaw": -25,
+          "pitch": -12,
+          "uzrasas": {
+            "lt": "Prie atramos",
+            "en": "By the abutment"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 0,
+          "pitch": 12,
+          "antraste": {
+            "lt": "Tiltas per Varėnę (Glūko)",
+            "en": "Bridge over the Varėnė (Glūkas)"
+          },
+          "tekstas": {
+            "lt": "Grotelinė kniedyta santvara: apie 21 m anga, apie 2,7 m aukščio, 1 524 mm vėžė. Ją laikė dvi akmeninės krantinės atramos.",
+            "en": "A riveted lattice truss: a span of about 21 m, about 2.7 m high, 1,524 mm gauge. It rested on two stone bank abutments."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 3,
+        "cubeResolution": 1536,
+        "basePath": "assets/pano_mr/tiltas_varene/krantas_k"
+      },
+      "mr_saltinis": "../Panos Upscaled/_kvadratai/tiltas_varene_krantas_kvadratai.png",
+      "pagrindas": {
+        "lt": "Rekonstrukcija pagal išlikusių dalių 3D modelius, brėžinius ir matavimus",
+        "en": "Reconstruction based on 3D models of the surviving parts, drawings and measurements"
+      }
+    },
+    {
+      "id": "ant_tilto",
+      "failas": "Tiltas Varėnė/Sunlit Railway Bridge Over River Valley.png",
+      "rusis": "rekonstrukcija",
+      "pavadinimas": {
+        "lt": "Ant tilto",
+        "en": "On the bridge"
+      },
+      "yaw": 0,
+      "pitch": -6,
+      "perejimai": [
+        {
+          "i": "krantas",
+          "yaw": 90,
+          "pitch": -25,
+          "uzrasas": {
+            "lt": "Į krantą",
+            "en": "To the bank"
+          }
+        },
+        {
+          "i": "po_tiltu",
+          "yaw": -90,
+          "pitch": -30,
+          "uzrasas": {
+            "lt": "Po tiltu",
+            "en": "Under the bridge"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": 0,
+          "pitch": -22,
+          "antraste": {
+            "lt": "Kaip atkurta",
+            "en": "How it was rebuilt"
+          },
+          "tekstas": {
+            "lt": "Atramos užfiksuotos fotogrametriškai (fotogrametrinė 3D esamos būklės fiksacija), o plieninė viršutinė konstrukcija sumodeliuota pagal Olita–Orany kolekcijos brėžinius. Vaizdas rodo 1899 m. būklę.",
+            "en": "The abutments were recorded photogrammetrically, and the steel superstructure was modelled from drawings in the Olita–Orany collection. The view shows the state in 1899."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg?v=2",
+        "tileResolution": 512,
+        "maxLevel": 3,
+        "cubeResolution": 1536,
+        "basePath": "assets/pano_mr/tiltas_varene/ant_tilto_k"
+      },
+      "mr_saltinis": "../Panos Upscaled/_kvadratai/tiltas_varene_ant_tilto_kvadratai.png",
+      "pagrindas": {
+        "lt": "Rekonstrukcija pagal išlikusių dalių 3D modelius, brėžinius ir matavimus",
+        "en": "Reconstruction based on 3D models of the surviving parts, drawings and measurements"
+      }
+    },
+    {
+      "id": "po_tiltu",
+      "failas": "Tiltas Varėnė/Sunlit Railway Bridge Over River.png",
+      "rusis": "rekonstrukcija",
+      "pavadinimas": {
+        "lt": "Prie atramos",
+        "en": "By the abutment"
+      },
+      "yaw": -60,
+      "pitch": 4,
+      "perejimai": [
+        {
+          "i": "ant_tilto",
+          "yaw": -20,
+          "pitch": 30,
+          "uzrasas": {
+            "lt": "Ant tilto",
+            "en": "On the bridge"
+          }
+        },
+        {
+          "i": "krantas",
+          "yaw": 150,
+          "pitch": -6,
+          "uzrasas": {
+            "lt": "Nuo kranto",
+            "en": "From the bank"
+          }
+        }
+      ],
+      "istorijos": [
+        {
+          "yaw": -100,
+          "pitch": 0,
+          "antraste": {
+            "lt": "Kas liko",
+            "en": "What remains"
+          },
+          "tekstas": {
+            "lt": "1915 m. tiltas susprogdintas; vokiečiai, paremontavę santvarą, jį atstatė su nauja medine tarpine atrama. Eismas ruože nutrauktas 1926 m., konstrukcija išardyta po 1937 m. Išliko akmeninės atramos (Kultūros vertybių registras, kodas 41994); 2025 m. vietoje atnaujintas medinis pėsčiųjų tiltas.",
+            "en": "In 1915 the bridge was blown up; the Germans repaired the truss and rebuilt it with a new timber intermediate support. Traffic on the line stopped in 1926, and the structure was dismantled after 1937. The stone abutments survive (Register of Cultural Property, code 41994); in 2025 a timber footbridge was renewed on the site."
+          },
+          "vaizdas": "assets/pano_web/tiltas_varene/img/tarpukaris.jpg",
+          "vaizdo_paaiskinimas": {
+            "lt": "Tiltas tarpukariu (istorinė nuotrauka, spalvinta).",
+            "en": "The bridge between the wars (historical photo, coloured)."
+          }
+        }
+      ],
+      "mr": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 3,
+        "cubeResolution": 1536,
+        "basePath": "assets/pano_mr/tiltas_varene/po_tiltu_k"
+      },
+      "mr_saltinis": "../Panos Upscaled/_kvadratai/tiltas_varene_po_tiltu_kvadratai.png",
+      "pagrindas": {
+        "lt": "Rekonstrukcija pagal išlikusių dalių 3D modelius, brėžinius ir matavimus",
+        "en": "Reconstruction based on 3D models of the surviving parts, drawings and measurements"
+      }
+    }
+  ],
+  "mini3d": {
+    "glb": "assets/mini3d/tiltas_varene.glb",
+    "taskai": {
+      "ant_tilto": {
+        "p": [
+          0.7,
+          0.136,
+          7.505
+        ],
+        "h": 0
+      },
+      "po_tiltu": {
+        "p": [
+          -13.5,
+          -4.5,
+          1.25
+        ],
+        "h": 0
+      },
+      "krantas": {
+        "p": [
+          -1.705,
+          -22.336,
+          8.268
+        ],
+        "h": 87.73
+      }
+    },
+    "uzuomina": {
+      "lt": "Paspausk taško žymę – pereisi į tą panoramą. Paspausk modelį – padidinsi.",
+      "en": "Tap a point to go to that panorama. Tap the model to enlarge."
+    },
+    "atgal": {
+      "lt": "← Atgal į panoramą",
+      "en": "← Back to panorama"
+    },
+    "spalvos": {
+      "PLANKS": "#6b5a48",
+      "planks": "#6b5a48"
+    }
+  }
+}
