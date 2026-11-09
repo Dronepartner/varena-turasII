@@ -55,7 +55,7 @@ function init(cfg) {
     piestiRema(); map.invalidateSize();
     clearTimeout(rt); rt = setTimeout(() => { piestiRema(); map.invalidateSize(); if (!liesta) pradinisVaizdas(); else ribotiZoom(); figMastelis(); }, 120);
   });
-  if (!saugykla('varena_mokymas')) setTimeout(() => pradetiMokyma(), 600);
+  if (!saugykla('varena_turasII_mokymas')) setTimeout(() => pradetiMokyma(), 600);
   else setTimeout(uzuominos, 1500);
 }
 
@@ -1110,7 +1110,7 @@ function rodytiZingsni() {
     detiBurbula(b, null);
   }
 }
-function baigtiMokyma() { $('#mokymas').hidden = true; saugykla('varena_mokymas', '1'); setTimeout(uzuominos, 1200); }
+function baigtiMokyma() { $('#mokymas').hidden = true; saugykla('varena_turasII_mokymas', '1'); setTimeout(uzuominos, 1200); }
 
 /* ---------- išokančios užuominos prie įrankių ---------- */
 const ATLIKTA = { tryne: false, padejo: false };
