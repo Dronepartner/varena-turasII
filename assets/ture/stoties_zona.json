@@ -88,12 +88,12 @@
    "pitch": 2,
    "perejimai": [
     {
-     "i": "r_peronas",
+     "i": "st_kiemas",
      "yaw": -45.0,
      "pitch": 6.0,
      "uzrasas": {
-      "lt": "Peronas ~1910 m.",
-      "en": "Platform c. 1910"
+      "lt": "Peronas šiandien",
+      "en": "The platform today"
      }
     },
     {
