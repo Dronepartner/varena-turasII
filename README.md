@@ -2,6 +2,8 @@
 
 **Lietuviškai** · [English below](#english)
 
+Svetainė: https://dronepartner.github.io/varena-turasII/ · versija 2026-11-16
+
 ## Kas tai
 Statinė svetainė: HTML, JavaScript, paveikslai, PDF. Nereikia nei duomenų bazės, nei PHP ar Node.js. Visos nuorodos santykinės, todėl aplanką galima įkelti į bet kurią serverio vietą (domeno šaknį arba poaplankį, pvz. `/turas/`).
 
@@ -38,12 +40,15 @@ Daugiau nieko keisti nereikia.
 
 ## Išorinės nuorodos
 - 3D modeliai: Sketchfab (https://skfb.ly/pFAqX, https://skfb.ly/pOQHC, https://skfb.ly/pQuEx).
+- Nuorodos keičiamos faile `app.js`, objektas `TXT` (lt / en): 3D modeliai – `info_modeliai`, ataskaitos – `info_ataskaitos`. Ataskaitų PDF – aplanke `assets/docs/` (naują failą įrašykite tuo pačiu pavadinimu).
 - Daugiau išorinių paslaugų svetainė nenaudoja: nėra slapukų, analitikos ar išorinių šriftų.
 
 ---
 
 <a id="english"></a>
 # Varėna Artillery Range virtual tour – administrator notes
+
+Website: https://dronepartner.github.io/varena-turasII/ · version 2026-11-16
 
 ## What it is
 A static website: HTML, JavaScript, images, PDFs. No database, PHP or Node.js needed. All links are relative, so the folder can be placed anywhere on a server (domain root or a subfolder such as `/tour/`).
@@ -81,4 +86,5 @@ Nothing else needs to change.
 
 ## External links
 - 3D models: Sketchfab (https://skfb.ly/pFAqX, https://skfb.ly/pOQHC, https://skfb.ly/pQuEx).
+- Links are edited in `app.js`, object `TXT` (lt / en): 3D models – `info_modeliai`, reports – `info_ataskaitos`. Report PDFs are in `assets/docs/` (save a new file under the same name).
 - The site uses no other external services: no cookies, analytics or external fonts.
