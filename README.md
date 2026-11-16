@@ -37,7 +37,7 @@ Daugiau nieko keisti nereikia.
 - Atnaujinus failus, naršyklės gali rodyti seną versiją iš podėlio – `index.html` padidinkite `?v=` numerį prie `style.css` ir `app.js`.
 
 ## Išorinės nuorodos
-- 3D modeliai: Sketchfab (https://skfb.ly/pFAqX, https://skfb.ly/pOQHC).
+- 3D modeliai: Sketchfab (https://skfb.ly/pFAqX, https://skfb.ly/pOQHC, https://skfb.ly/pQuEx).
 - Daugiau išorinių paslaugų svetainė nenaudoja: nėra slapukų, analitikos ar išorinių šriftų.
 
 ---
@@ -80,5 +80,5 @@ Nothing else needs to change.
 - After updating files, browsers may show a cached version – increase the `?v=` number for `style.css` and `app.js` in `index.html`.
 
 ## External links
-- 3D models: Sketchfab (https://skfb.ly/pFAqX, https://skfb.ly/pOQHC).
+- 3D models: Sketchfab (https://skfb.ly/pFAqX, https://skfb.ly/pOQHC, https://skfb.ly/pQuEx).
 - The site uses no other external services: no cookies, analytics or external fonts.
